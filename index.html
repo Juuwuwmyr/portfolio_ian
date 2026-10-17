@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ian Louis Motol | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-inner">
+        <a href="#hero" class="logo-container">
+            <div class="logo-icon">ILM</div>
+            Ian Louis Motol
+        </a>
+
+        <div class="nav-links">
+            <a href="#projects" data-section="projects">Projects</a>
+            <a href="#experience" data-section="experience">Experience</a>
+            <a href="#about" data-section="about">About</a>
+            <a href="#stack" data-section="stack">Stack</a>
+            <a href="#awards" data-section="awards">Awards</a>
+            <a href="#contact" data-section="contact">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+            <a href="#contact" class="btn-primary">Let's Talk &rarr;</a>
+            <button class="theme-toggle" aria-label="Toggle dark mode" id="themeToggle">
+                <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+            </button>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-badge">Available for new projects</div>
+
+            <h1>Building Powerful<br>Software That<br><span class="highlight">That Drives Business Growth.</span></h1>
+ 
+
+            <p class="subtitle">
+                I'm <strong>Ian Louis Motol</strong> — a full stack developer building SaaS, ERP, and AI-powered products with performance and craft at the core.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-dark">View Projects &rarr;</a>
+                <a href="#contact" class="btn-outline">Let's Work Together</a>
+                <a href="#" class="btn-outline">Resume &nearr;</a>
+            </div>
+
+         
+        </div>
+
+        <div class="hero-image-wrapper">
+            <div class="hero-image-bg"></div>
+            <img src="image/hero_prof.png" alt="Ian Louis Motol working on laptop" class="hero-image">
+        </div>
+    </main>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="section-header">
+            <div class="section-eyebrow">Projects</div>
+            <h2>Selected work that ships.</h2>
+            <p>A mix of production SaaS platforms, internal ERP tooling, and AI-powered features built for real users.</p>
+        </div>
+
+        <div class="project-grid">
+            <!-- PROJECT CARD 1 -->
+            <article class="project-card reveal">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
+                         alt="LedgerOne dashboard screenshot">
+                </div>
+                <div class="project-body">
+                    <h3>LedgerOne</h3>
+                    <p>Multi-tenant accounting and invoicing SaaS with real-time reconciliation, audit trails, and BIR-compliant reports.</p>
+                    <div class="tag-row">
+                        <span class="tag">Next.js</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">Stripe</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- PROJECT CARD 2 -->
+            <article class="project-card reveal">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
+                         alt="FlowForge ERP interface">
+                </div>
+                <div class="project-body">
+                    <h3>FlowForge ERP</h3>
+                    <p>Modular ERP covering procurement, inventory, and HR for mid-sized distribution companies.</p>
+                    <div class="tag-row">
+                        <span class="tag">NestJS</span>
+                        <span class="tag">React</span>
+                        <span class="tag">Redis</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- PROJECT CARD 3 -->
+            <article class="project-card reveal">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&q=80&w=800"
+                         alt="Synth Support AI chat interface">
+                </div>
+                <div class="project-body">
+                    <h3>Synth Support</h3>
+                    <p>AI customer-support copilot that drafts replies, summarizes tickets, and routes escalations automatically.</p>
+                    <div class="tag-row">
+                        <span class="tag">Python</span>
+                        <span class="tag">LangChain</span>
+                        <span class="tag">OpenAI</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- PROJECT CARD 4 -->
+            <article class="project-card reveal">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
+                         alt="Pulse Analytics dashboard">
+                </div>
+                <div class="project-body">
+                    <h3>Pulse Analytics</h3>
+                    <p>Self-serve product analytics with funnel visualization, cohort retention, and embedded dashboards.</p>
+                    <div class="tag-row">
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">ClickHouse</span>
+                        <span class="tag">D3</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <!-- FIXED: Removed .reveal from section-header -->
+        <div class="section-header">
+            <div class="section-eyebrow">Experience</div>
+            <h2>A track record of building and scaling.</h2>
+            <p>Nearly a decade shipping products across startups and enterprise teams.</p>
+        </div>
+
+        <div class="timeline">
+            <!-- FIXED: Removed .reveal from timeline items to prevent jumping -->
+            <div class="timeline-item">
+                <div class="period">2023 — Present</div>
+                <h3>Lead Full Stack Engineer · Independent</h3>
+                <p>Architecting SaaS and ERP products end-to-end for clients across SEA, with a focus on performance, compliance, and developer experience.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="period">2020 — 2023</div>
+                <h3>Senior Software Engineer · Fintech Startup</h3>
+                <p>Led the payments and reconciliation platform. Cut report generation time by 70% and mentored a team of four engineers.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="period">2017 — 2020</div>
+                <h3>Full Stack Developer · Enterprise Software</h3>
+                <p>Built internal ERP modules used by thousands of employees daily, owning everything from schema design to UI polish.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="about-container">
+            <div class="about-visual reveal">
+                <div class="about-image-wrapper">
+                    <img src="image/profile.png" alt="Ian Louis Motol" class="about-image">
+                    <div class="about-image-glow"></div>
+                </div>
+                <div class="about-experience-badge">
+                    <strong>9+</strong>
+                    <span>Years Exp.</span>
+                </div>
+            </div>
+
+            <div class="about-content">
+                <div class="section-header">
+                    <div class="section-eyebrow">About</div>
+                    <h2>Developer, builder, and relentless tinkerer.</h2>
+                </div>
+                
+                <div class="about-bio reveal">
+                    <p>I'm <strong>Ian Louis Motol</strong>, a full stack developer with a deep love for systems that feel effortless to use. My work sits at the intersection of product thinking and engineering craft.</p>
+                    <p>I've spent the last several years building SaaS platforms, ERP systems, and AI-powered tools — mostly for teams that need software to do real, measurable work. I care about performance, clean architecture, and the small details that make software feel premium.</p>
+                </div>
+
+                <div class="stat-grid reveal">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                        </div>
+                        <div class="stat-info">
+                            <strong>9+</strong>
+                            <span>Years building software</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        </div>
+                        <div class="stat-info">
+                            <strong>40+</strong>
+                            <span>Products shipped</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                        </div>
+                        <div class="stat-info">
+                            <strong>12</strong>
+                            <span>Open-source packages</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stack -->
+    <section id="stack">
+        <div class="section-header">
+            <div class="section-eyebrow">Stack</div>
+            <h2>Tools I reach for.</h2>
+            <p>Pragmatic choices, battle-tested in production.</p>
+        </div>
+
+        <div class="stack-group reveal">
+            <h3>Frontend</h3>
+            <div class="stack-row">
+                <span class="stack-pill"><span class="stack-dot"></span>React</span>
+                <span class="stack-pill"><span class="stack-dot"></span>Next.js</span>
+                <span class="stack-pill"><span class="stack-dot"></span>TypeScript</span>
+                <span class="stack-pill"><span class="stack-dot"></span>Tailwind CSS</span>
+                <span class="stack-pill"><span class="stack-dot"></span>Vite</span>
+            </div>
+        </div>
+
+        <div class="stack-group reveal">
+            <h3>Backend</h3>
+            <div class="stack-row">
+                <span class="stack-pill"><span class="stack-dot"></span>Node.js</span>
+                <span class="stack-pill"><span class="stack-dot"></span>NestJS</span>
+                <span class="stack-pill"><span class="stack-dot"></span>Python</span>
+                <span class="stack-pill"><span class="stack-dot"></span>PostgreSQL</span>
+                <span class="stack-pill"><span class="stack-dot"></span>Redis</span>
+            </div>
+        </div>
+
+        <div class="stack-group reveal">
+            <h3>Infra & AI</h3>
+            <div class="stack-row">
+                <span class="stack-pill"><span class="stack-dot"></span>Docker</span>
+                <span class="stack-pill"><span class="stack-dot"></span>AWS</span>
+                <span class="stack-pill"><span class="stack-dot"></span>OpenAI</span>
+                <span class="stack-pill"><span class="stack-dot"></span>LangChain</span>
+                <span class="stack-pill"><span class="stack-dot"></span>GitHub Actions</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards -->
+    <section id="awards">
+        <div class="section-header">
+            <div class="section-eyebrow">Awards</div>
+            <h2>Recognition along the way.</h2>
+            <p>Momentum from teams and communities I've had the privilege to build with.</p>
+        </div>
+
+        <div class="award-grid">
+            <div class="award-card reveal">
+                <div class="award-icon">★</div>
+                <div>
+                    <h3>Top Engineer of the Year</h3>
+                    <p>Fintech Startup · 2022 — for leading the payments platform rebuild.</p>
+                </div>
+            </div>
+            <div class="award-card reveal">
+                <div class="award-icon">◆</div>
+                <div>
+                    <h3>Best SaaS Product</h3>
+                    <p>Regional Startup Awards · 2024 — LedgerOne accounting platform.</p>
+                </div>
+            </div>
+            <div class="award-card reveal">
+                <div class="award-icon">✦</div>
+                <div>
+                    <h3>Open Source Contributor</h3>
+                    <p>Recognized for sustained contributions to developer tooling · 2023.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="contact-card reveal">
+            <h2>Let's build something great.</h2>
+            <p>Have a product in mind, a system to modernize, or a team that needs an extra senior pair of hands? I'd love to hear about it.</p>
+            <div class="contact-actions">
+                <a href="mailto:ian@ianlouismotol.dev" class="btn-light">ian@ianlouismotol.dev</a>
+                <a href="#" class="btn-ghost">Book a call &nearr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <span>&copy; 2026 Ian Louis Motol. All rights reserved.</span>
+        <div class="footer-links">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">X</a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
